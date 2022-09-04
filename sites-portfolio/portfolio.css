@@ -60,7 +60,7 @@ header h3:hover {
 body {
     line-height: 1.5;
     color: aliceblue;
-    background: linear-gradient(45deg, rgb(26, 26, 26, 0.96), rgb(26, 26, 26, 0.96)), url(../../assets/nodebg.png);
+    background: linear-gradient(45deg, rgb(26, 26, 26, 0.96), rgb(26, 26, 26, 0.96)), url(../assets/nodebg.png);
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
