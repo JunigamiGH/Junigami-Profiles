@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Junigami">
+    <link rel="stylesheet" href="doe-formulario.css" type="text/CSS" />
+    <script src="https://kit.fontawesome.com/e0de17c2f6.js" crossorigin="anonymous"></script>
+    <title>Formulário de doação</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/Adote simbol.png" alt="Icone Logo"></a>
+            </div>
+
+            <div class="titulo-principal">
+                <h1>Adote uma Waifu.org</h1>
+                <p>Associação governamental de proteção e cuidados às Waifus</p>
+            </div>
+
+            <div class="redessociais">
+                <ul>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="banner-formulario">
+    </div>
+
+    <div class="texto-doe">
+        <section class="texto-doe-sec">
+            <h2>Sempre é dificil dizer um adeus...</h2>
+            <br>
+            <p>Por isso, é muito importante você falar um pouco sobre você e sua waifu, para deixar tudo registrado e
+                podermos encaminhar ela para um local melhor e adequado. Mesmo nos momentos dificeis, ainda pode ser
+                possivel encontrar a felicidade para ambos os lados.</p>
+            <p>Se ainda estiver certo em doar sua waifu, por favor preencha <b>TODOS</b> os dados abaixo para continuar
+                com o procedimento de doação.</p>
+            <br>
+        </section>
+    </div>
+
+
+    <form>
+
+        <div class="formulario-preenchimento">
+            <form>
+                <div class="dados-pessoais">
+                    <h3 class="titulo-dados">Preencha os seus dados pessoais</h3>
+                    <br>
+                    <div class="dados-pessoais-box">
+                        <div class="grupo-form">
+                            <label for="camponome">Nome:</label>
+                            <input id="camponome" type="text" placeholder="seu nome" required>
+                        </div>
+                        <div class="grupo-form">
+                            <label for="sobrenome">Sobrenome:</label>
+                            <input id="sobrenome" type="text" placeholder="seu sobrenome" required>
+                        </div>
+                        <div class="grupo-form">
+                            <label for="idade"> Data de Nascimento:</label>
+                            <input id="idade" type="date" placeholder="sua data de nascimento" required>
+                        </div>
+                        <div class="grupo-form">
+                            <label for="email">Email de contato:</label>
+                            <input id="email" type="email" placeholder="seu email" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <!--- <div class="banner-fundo-dados1">
+        </div> -->
+
+        </div>
+
+        <div class="waifu-g1">
+            <div class="div-waifu-g1">
+                <div class="formulario-waifu">
+                    <form>
+                        <div class="dados-waifu-1">
+                            <h3 class="titulo-dados">Preencha os dados de sua Waifu</h3>
+                            <br>
+                            <div class="grupo-form">
+                                <label for="camponomeW">Nome da Waifu:</label>
+                                <input id="camponomeW" type="text" placeholder="nome de sua Waifu" required>
+                            </div>
+                            <div class="grupo-form">
+                                <label for="sobrenomeW">Sobrenome da Waifu:</label>
+                                <input id="sobrenomeW" type="text" placeholder="sobrenome de sua Waifu" required>
+                            </div>
+                            <div class="grupo-form">
+                                <label for="idadeW"> Data de Nascimento:</label>
+                                <input id="idadeW" type="date" placeholder="sua data de nascimento da sua Waifu"
+                                    required>
+                            </div>
+                            <div class="grupo-form">
+                                <label for="serieW">Série de Origem (anime, jogo, etc):</label>
+                                <input id="serieW" type="text" placeholder="nome da série de sua Waifu" required>
+                            </div>
+                            <label for="sexo">Sexo: </label>
+                            <select name="sexo" id="sexo" required>
+                                <option selected disabled value="selecione um">Selecione um</option>
+                                <option value="feminino">Feminino</option>
+                                <option value="masculuno">Masculino</option>
+                                <option value="asexuado">Asexuado</option>
+                                <option value="nobina">Não Binario</option>
+                                <option value="futa">Futanari</option>
+                                <option value="trap">Trap</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+
+                <form>
+                    <div class="dados-waifu-2">
+                        <h3 class="titulo-dados">Raça da Waifu</h3>
+                        <br>
+                        <div class="waifu-alin1">
+                            <input type="radio" id="humanoid" name="raca" value="humano">
+                            <label for="humanoid">Humano</label>
+                            <br>
+                            <input type="radio" id="kemonomimisid" name="raca" value="kemonomimis">
+                            <label for="kemonomimisid">Kemonomimis</label>
+                            <br>
+                            <input type="radio" id="furryid" name="raca" value="furry">
+                            <label for="furryid">Furry</label>
+                            <br>
+                            <input type="radio" id="cyberid" name="raca" value="cyber">
+                            <label for="cyberid">Cyber/Digital</label>
+                            <br>
+                            <input type="radio" id="jojoid" name="raca" value="jojo">
+                            <label for="jojoid">Jojo!</label>
+                            <br>
+                            <input type="radio" id="godid" name="raca" value="god">
+                            <label for="godid">God</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="waifu-g2">
+            <div class="waifu-content">
+                <form>
+                    <div class="dados-waifu-3">
+                        <h3 class="titulo-dados">Caracteristicas da Waifu</h3>
+                        <br>
+                        <br>
+                        <div class="dadosw-colund">
+                            <div class="dadosw-colun">
+                                <input id="item1" type="checkbox" name="tsundere" value="tsundere">
+                                <label for="item1">Tsundere</label>
+                                <br>
+                                <input id="item2" type="checkbox" name="yandere" value="yandere">
+                                <label for="item2">Yandere</label>
+                                <br>
+                                <input id="item3" type="checkbox" name="megane" value="megane">
+                                <label for="item3">Megane</label>
+                                <br>
+                                <input id="item4" type="checkbox" name="linchouseito" value="linchouseito">
+                                <label for="item4">Linchou/Seito Kaichou</label>
+                                <br>
+                                <input id="item5" type="checkbox" name="lolishota" value="lolishota">
+                                <label for="item5">Lolita/Shotacon</label>
+                                <br>
+                                <input id="item6" type="checkbox" name="yamato" value="yamato">
+                                <label for="item6">Yamato Nadeshiko</label>
+                            </div>
+                            <div class="dadosw-colun">
+                                <input id="item7" type="checkbox" name="pettanko" value="pettanko">
+                                <label for="item7">Pettanko</label>
+                                <br>
+                                <input id="item8" type="checkbox" name="kuudere" value="kuudere">
+                                <label for="item8">Kuudere</label>
+                                <br>
+                                <input id="item9" type="checkbox" name="bokukko" value="bokukko">
+                                <label for="item9">Bokukko</label>
+                                <br>
+                                <input id="item10" type="checkbox" name="dojikko" value="dojikko">
+                                <label for="item10">Dojikko</label>
+                                <br>
+                                <input id="item11" type="checkbox" name="bishounen" value="bishounen">
+                                <label for="item11">Bishounen</label>
+                                <br>
+                                <input id="item12" type="checkbox" name="bishoujo" value="bishoujo">
+                                <label for="item12">Bishoujo</label>
+                            </div>
+                        </div>
+                        <br><br>
+                    </div>
+                </form>
+
+                <form>
+                    <div class="dados-waifu-4">
+                        <h3 class="titulo-dados">Caracteristicas especiais da Waifu</h3>
+                        <p class="titulo-dados">Por favor selecione no minimo 3 opções</p>
+                        <br>
+                        <div class="dadosw-colund">
+                            <div class="dadosw-colun">
+                                <input id="cara1" type="checkbox" name="educada" value="educada">
+                                <label for="cara1">Educada</label>
+                                <br>
+                                <input id="cara2" type="checkbox" name="atenciosa" value="atenciosa">
+                                <label for="cara2">Atenciosa</label>
+                                <br>
+                                <input id="cara3" type="checkbox" name="habilidosa" value="habilidosa">
+                                <label for="cara3">Habilidosa</label>
+                                <br>
+                                <input id="cara4" type="checkbox" name="agil" value="agil">
+                                <label for="cara4">Agil</label>
+                                <br>
+                                <input id="cara5" type="checkbox" name="matraqueira" value="matraqueira">
+                                <label for="cara5">Matraqueira</label>
+                                <br>
+                                <input id="cara6" type="checkbox" name="catarrenta" value="catarrenta">
+                                <label for="cara6">Catarrenta</label>
+                                <br>
+                                <input id="cara7" type="checkbox" name="timida" value="timida">
+                                <label for="cara7">Timida</label>
+                                <br>
+                            </div>
+                            <div class="dadosw-colun">
+                                <input id="cara8" type="checkbox" name="falapouco" value="falapouco">
+                                <label for="cara8">Fala Pouco</label>
+                                <br>
+                                <input id="cara9" type="checkbox" name="semeducacao" value="semeducacao">
+                                <label for="cara9">Sem Educação</label>
+                                <br>
+                                <input id="cara10" type="checkbox" name="reclamona" value="reclamona">
+                                <label for="cara10">Reclamona</label>
+                                <br>
+                                <input id="cara11" type="checkbox" name="briguenta" value="briguenta">
+                                <label for="cara11">Briguenta</label>
+                                <br>
+                                <input id="cara12" type="checkbox" name="meiga" value="meiga">
+                                <label for="cara12">Meiga</label>
+                                <br>
+                                <input id="cara13" type="checkbox" name="flat" value="flat">
+                                <label for="cara13">Flat</label>
+                                <br>
+                                <input id="cara14" type="checkbox" name="oppai" value="oppai">
+                                <label for="cara14">Oppai</label>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="waifu-g3">
+            <div class="dados-adicionais">
+                <form>
+                    <div class="dados-waifu-5">
+                        <h3 class="titulo-dados">Dados complementares</h3>
+                        <p>Faltou algum dado? Complemente aqui abaixo!</p>
+                        <br>
+                        <textarea name="adicionais" id="adicionaisid" cols="0" rows="10"
+                            placeholder="Fale mais sobre sua Waifu!"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="buton">
+            <input type="submit" class="btn" value="Enviar pedido de doação">
+           <!--- 
+           <button type="submit" value="Enviar pedido de doação"> Botão teste</button> -->
+        </div>
+    </form>
+
+
+    <footer class="fundo">
+        <div class="rodape">
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/Adote simbol.png" alt="Icone Logo"></a>
+            </div>
+
+            <div class="contato">
+                <h3>Entre em contato com a gente!</h3>
+                <ul>
+                    <li>Email: adote@waifu.org.br</li>
+                    <li>Telefone:08xxx-69-6969</li>
+                    <li>Desing: @Junigami/@Lumadart</li>
+                </ul>
+            </div>
+
+            <div class="redessociais">
+                <ul>
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

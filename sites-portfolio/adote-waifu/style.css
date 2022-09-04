@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+    background: white
+}
+
+.titulo-principal {
+    font-size: 30px;
+    color: #a0c5f0;
+    text-shadow: 3px 3px #ffffff;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: rgba(241, 236, 181, 0.8);
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.redessociais ul {
+    list-style: none;
+    font-size: 36px;
+    color: #96d1e6;
+    display: flex;
+    gap: 10px;
+}
+
+.banner {
+    background-image: url(./assets/Farewell\ Dragonmaid.png);
+    background-size: cover;
+    background-position: 0% 40%;
+    height: 600px;
+}
+
+.divcoluna {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.coluna {
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 1600px;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botoes img {
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #96d1e6;
+
+}
+
+.botoes img:hover {
+    box-shadow: 15px 15px #96d1e6;
+    transition: 0.2s ease-in-out;
+}
+
+.fundo {
+    background-color: rgba(241, 236, 181, 0.8);
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.contato ul {
+    list-style: none;
+}

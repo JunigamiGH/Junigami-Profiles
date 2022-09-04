@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+    background: white
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 30px;
+    color: #a0c5f0;
+    text-shadow: 3px 3px #ffffff;
+}
+
+.cabecalho {
+    background-color: rgba(241, 236, 181, 0.8);
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.redessociais ul {
+    list-style: none;
+    font-size: 36px;
+    color: #96d1e6;
+    display: flex;
+    gap: 10px;
+}
+
+/* Corpo da pagina usada -------------------------- */
+
+.texto-catalogo {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.sessao {
+    -border: 5px solid black;
+    background-color: #e4b4b3;
+}
+
+.catalogo {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    -border: 5px solid black;
+    padding: 60px 0;
+    gap: 60px;
+}
+
+.w1,
+.w2,
+.w3,
+.w4,
+.w5,
+.w6,
+.w7,
+.w8,
+.w9,
+.w10,
+.w11,
+.w12 {
+    width: 400px;
+    margin: 0 0;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 3px dotted black;
+    text-align: center;
+    background-color: white;
+    transition: 0.1s ease-in-out;
+}
+
+.w1 img,
+.w2 img,
+.w3 img,
+.w4 img,
+.w5 img,
+.w6 img,
+.w7 img,
+.w8 img,
+.w9 img,
+.w10 img,
+.w11 img,
+.w12 img {
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.w1:hover,
+.w2:hover,
+.w3:hover,
+.w4:hover,
+.w5:hover,
+.w6:hover,
+.w7:hover,
+.w8:hover,
+.w9:hover,
+.w10:hover,
+.w11:hover,
+.w12:hover {
+    box-shadow: 15px 15px #9ee0a4;
+    -box-shadow: -15px -15px white;
+}
+
+.w1 img:hover,
+.w2 img:hover,
+.w3 img:hover,
+.w4 img:hover,
+.w5 img:hover,
+.w6 img:hover,
+.w7 img:hover,
+.w8 img:hover,
+.w9 img:hover,
+.w10 img:hover,
+.w11 img:hover,
+.w12 img:hover {
+    transform: scale(1.1);
+    transition: 0.1s ease-in-out;
+}
+
+.card-desc {
+    margin: 15px 15px;
+}
+
+
+
+/* Corpo da pagina usada fim -------------------------- */
+
+.fundo {
+    background-color: rgba(241, 236, 181, 0.8);
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato ul {
+    text-align: center;
+    list-style: none;
+}

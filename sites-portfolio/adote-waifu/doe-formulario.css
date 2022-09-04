@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+    background: white
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 30px;
+    color: #a0c5f0;
+    text-shadow: 3px 3px #ffffff;
+}
+
+.cabecalho {
+    background-color: rgba(241, 236, 181, 0.8);
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.redessociais ul {
+    list-style: none;
+    font-size: 36px;
+    color: #96d1e6;
+    display: flex;
+    gap: 10px;
+}
+
+/* Corpo da pagina usada -------------------------- */
+
+.banner-formulario {
+    background-image: url(./assets/Rem\ Cry.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+    height: 400px;
+}
+
+.texto-doe {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin: 10px auto;
+    width: 1600px;
+    border: black 5px;
+}
+
+.texto-doe-sec {
+    margin: 0 auto;
+}
+
+.texto-doe p {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.formulario-preenchimento {
+    display: flex;
+    flex-direction: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #d3eef8;
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+.dados-pessoais {
+    text-align: left;
+    margin: 10px;
+    line-height: 1.8;
+    -border: 2px solid black;
+}
+
+.grupo-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.grupo-form input {
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#sexo {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* ....banner-fundo-dados1 {
+    background-image: url(./Img/Dragonmaid\ House.jpg);
+    width: 900px;
+    margin: 0 auto;
+}
+*/
+
+.waifu-g1 {
+    background-color: #c0f3a6;
+}
+
+.div-waifu-g1 {
+    display: flex;
+    justify-content: center;
+}
+
+.waifu-alin1 {
+    padding-left: 100px;
+    -border: 2px solid black;
+}
+
+.waifu-g2 {
+    background-color: #f2dd95;
+}
+
+.waifu-content {
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.dadosw-colund {
+    display: flex;
+    gap: 40px;
+    -border: 2px solid black;
+}
+
+.waifu-g3 {
+    background-color: #ebbb98;
+}
+
+.titulo-dados {
+    text-align: center;
+}
+
+.dados-waifu-1,
+.dados-waifu-2,
+.dados-waifu-3,
+.dados-waifu-4 {
+    text-align: left;
+    margin: 20px 0px;
+    width: 400px;
+    line-height: 1.8;
+    padding: 20px;
+    -border: 2px solid black;
+}
+
+.dados-waifu-1,
+.dados-waifu-3 {
+    border-right: 1px solid black;
+}
+
+.dados-waifu-5  {
+    text-align: left;
+    width: 400px;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding: 20px;
+    -border: 2px solid black;
+}
+
+.dados-waifu-5  textarea{
+    width: 100%;
+}
+
+.buton {
+    display: flex;
+    background-color: #ebbb98;
+    -border: 2px solid rgb(6, 195, 12);
+}
+
+.btn {
+    margin: 20px auto;
+    -border-radius: 5px;
+    -padding: 3px;
+    -border: none;
+    -border: 2px solid black;
+}
+
+/* Corpo da pagina usada fim -------------------------- */
+
+.fundo {
+    background-color: rgba(241, 236, 181, 0.8);
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato ul {
+    text-align: center;
+    list-style: none;
+}

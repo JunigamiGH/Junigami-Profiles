@@ -1,0 +1,453 @@
+/* Main */
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "denton";
+    src: url(../../assets/fonts/denton.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "mobicb";
+    src: url(../../assets/fonts/Mobicb_.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    max-height: 100px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.voltar-pagina {
+    width: 200px;
+    margin: 20px;
+}
+
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header h3 {
+    background-color: gray;
+    padding: 12px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+header h3:hover {
+    background-color: rgb(160, 160, 160);
+    border-radius: 30px;
+}
+
+
+body {
+    line-height: 1.5;
+    color: aliceblue;
+    background: linear-gradient(45deg, rgb(26, 26, 26, 0.96), rgb(26, 26, 26, 0.96)), url(../../assets/nodebg.png);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+.top-body{
+    text-align: center;
+}
+
+
+/* novo CSS */
+
+/* titulo */
+
+.title-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: denton, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.title-body p {
+    font-style: italic;
+}
+
+/* Cards */
+
+.dn1,
+.dn2,
+.dn3,
+.dn4,
+.dn5,
+.dn6,
+.dn7,
+.dn8,
+.dn9,
+.dn10 {
+    /* 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    */
+    overflow: hidden;
+    margin: 40px auto;
+    color: aliceblue;
+    border-radius: 5px;
+    max-width: 750px;
+    min-height: 80px;
+    transition: 0.2s;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+/*backgrouns*/
+
+.dn1 {
+    background: linear-gradient(90deg, rgba(255, 215, 0, 0.80) 40%, rgb(26, 26, 26, 0) 60%), url(../../assets/img-top/final-fantasy-viir-boxart.jpg);
+    background-position: 0 -200px;
+    background-size: 100%;
+
+}
+
+.dn2 {
+    background: linear-gradient(90deg, rgba(136, 136, 136, 0.8) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/deus-ex-hr-boxart.jpg);
+    background-position: -150px -600px;
+    background-size: 170%;
+}
+
+.dn3 {
+    background: linear-gradient(90deg, rgba(205, 127, 50, 0.8) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/zelda-ocarina-of-time-boxart.jpg);
+    background-position: -550px -730px;
+    background-size: 200%;
+}
+
+.dn4 {
+    background: linear-gradient(90deg, rgba(21, 70, 110, 1) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/metroid-prime-boxart.jpg);
+    background-position: -350px -350px;
+    background-size: 200%;
+}
+
+.dn5 {
+    background: linear-gradient(90deg, rgba(21, 70, 110, 1) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/death-stranding-boxart.jpg);
+    background-position: 0px -100px;
+    background-size: 100%;
+}
+
+.dn6 {
+    background: linear-gradient(90deg, rgba(21, 70, 110, 1) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/deus-ex-md-boxart.jpg);
+    background-position: 0px -120px;
+    background-size: 120%;
+}
+
+.dn7 {
+    background: linear-gradient(90deg, rgba(21, 70, 110, 1) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/devil-may-cry-v-boxart.jpg);
+    background-position: -0px -50px;
+    background-size: 120%;
+}
+
+.dn8 {
+    background: linear-gradient(90deg, rgba(21, 70, 110, 1) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/horizon-zero-dawn-boxart.jpg);
+    background-position: -100px -490px;
+    background-size: 150%;
+}
+
+.dn9 {
+    background: linear-gradient(90deg, rgba(21, 70, 110, 1) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/tales-of-symphonia-boxart.jpg);
+    background-position: -100px -700px;
+    background-size: 150%;
+}
+
+.dn10 {
+    background: linear-gradient(90deg, rgba(21, 70, 110, 1) 20%, rgb(192, 192, 192, 0) 60%), url(../../assets/img-top/dark-souls-boxart.jpg);
+    background-position: 0px -270px;
+    background-size: 120%;
+}
+
+/*hovers*/
+
+.dn1:hover {
+    box-shadow: 0 0 30px 20px rgba(255, 215, 0, 0.5);
+}
+
+.dn2:hover {
+    box-shadow: 0 0 30px 20px rgba(192, 192, 192, 0.5);
+}
+
+.dn3:hover {
+    box-shadow: 0 0 30px 20px rgba(205, 127, 50, 0.5);
+}
+
+.dn4:hover,
+.dn5:hover,
+.dn6:hover,
+.dn7:hover,
+.dn8:hover,
+.dn9:hover,
+.dn10:hover {
+    box-shadow: 0 0 30px 20px rgba(21, 70, 110, 0.5);
+}
+
+/*grid config*/
+
+.dn1 h4,
+.dn2 h4,
+.dn3 h4,
+.dn4 h4,
+.dn5 h4,
+.dn6 h4,
+.dn7 h4,
+.dn8 h4,
+.dn9 h4,
+.dn10 h4 {
+    font-style: italic;
+    font-weight: bold;
+    -grid-column: 1;
+    -grid-row: 1;
+    text-shadow: 0px 0px 5px black;
+}
+
+.dn1 p,
+.dn2 p,
+.dn3 p,
+.dn4 p,
+.dn5 p,
+.dn6 p,
+.dn7 p,
+.dn8 p,
+.dn9 p,
+.dn10 p {
+    font-size: 15px;
+    text-shadow: 2px 2px 3px black;
+    -grid-column: 1;
+    -grid-row: 2;
+}
+
+/*Media Queries */
+
+@media only screen and (max-width: 600px) {
+
+    .dn1,
+    .dn2,
+    .dn3,
+    .dn4,
+    .dn5,
+    .dn6,
+    .dn7,
+    .dn8,
+    .dn9,
+    .dn10 {
+        margin: 40px auto;
+        min-width: 200px;
+    }
+
+    .dn1 {
+        background-position: 0 -80px;
+        background-size: 110%;
+    }
+
+    .dn2 {
+        background-position: -10px -200px;
+        background-size: 150%;
+    }
+
+    .dn3 {
+        background-position: -440px -450px;
+        background-size: 300%;
+    }
+
+    .dn4 {
+        background-position: -100px -150px;
+        background-size: 200%;
+    }
+
+    .dn5 {
+        background-position: -100px -300px;
+        background-size: 150%;
+    }
+
+    .dn6 {
+        background-position: 0px -30px;
+        background-size: 120%;
+    }
+
+    .dn7 {
+        background-position: -0px -20px;
+        background-size: 120%;
+    }
+
+    .dn8 {
+        background-position: -100px -230px;
+        background-size: 180%;
+    }
+
+    .dn9 {
+        background-position: -200px -400px;
+        background-size: 200%;
+    }
+
+    .dn10 {
+        background-position: 0px -110px;
+        background-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .dn1,
+    .dn2,
+    .dn3,
+    .dn4,
+    .dn5,
+    .dn6,
+    .dn7,
+    .dn8,
+    .dn9,
+    .dn10 {
+        margin: 40px auto;
+    }
+
+    .dn1 {
+        background-position: 0 -160px;
+        background-size: 110%;
+    }
+
+    .dn2 {
+        background-position: -10px -400px;
+        background-size: 150%;
+    }
+
+    .dn3 {
+        background-position: -400px -580px;
+        background-size: 200%;
+    }
+
+    .dn4 {
+        background-position: -170px -280px;
+        background-size: 200%;
+    }
+
+    .dn5 {
+        background-position: -100px -550px;
+        background-size: 130%;
+    }
+
+    .dn6 {
+        background-position: 0px -90px;
+        background-size: 120%;
+    }
+
+    .dn7 {
+        background-position: -0px -50px;
+        background-size: 120%;
+    }
+
+    .dn8 {
+        background-position: -100px -480px;
+        background-size: 180%;
+    }
+
+    .dn9 {
+        background-position: -250px -750px;
+        background-size: 200%;
+    }
+
+    .dn10 {
+        background-position: 0px -250px;
+        background-size: 120%;
+    }
+
+}
+
+@media only screen and (min-width: 750px) {
+
+    .dn1 {
+        background-position: 0 -200px;
+        background-size: 100%;
+    
+    }
+    
+    .dn2 {
+        background-position: -150px -600px;
+        background-size: 170%;
+    }
+    
+    .dn3 {
+        background-position: -550px -730px;
+        background-size: 200%;
+    }
+    
+    .dn4 {
+        background-position: -350px -350px;
+        background-size: 200%;
+    }
+    
+    .dn5 {
+        background-position: 0px -100px;
+        background-size: 100%;
+    }
+    
+    .dn6 {
+        background-position: 0px -120px;
+        background-size: 120%;
+    }
+    
+    .dn7 {
+        background-position: -0px -50px;
+        background-size: 120%;
+    }
+    
+    .dn8 {
+        background-position: -100px -490px;
+        background-size: 150%;
+    }
+    
+    .dn9 {
+        background-position: -100px -700px;
+        background-size: 150%;
+    }
+    
+    .dn10 {
+        background-position: 0px -270px;
+        background-size: 120%;
+    }
+
+
+}
+
+/*Mid Body */
+
+.mid-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.mid-body h2 {
+    font-family: mobicb, Geneva, Tahoma, sans-serif;
+}
+
+.mid-body p {
+    font-family: denton, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
