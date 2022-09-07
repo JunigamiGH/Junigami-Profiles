@@ -115,18 +115,29 @@ span {
     scale: 120%;
 }
 
+.rs-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background: #035AA6;
+    width: 950px;
+    border-radius: 5px;
+}
+
 .rs-cards {
     display: flex;
     flex-direction: row;
     width: 950px;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 20px auto;
     gap: 20px;
 }
 
 .card {
     width: 100%;
-    background-color: rgb(124, 124, 124);
+    background-color: #035AA6;
     text-align: center;
     transition: 0.2s;
     border-radius: 5px;
@@ -139,17 +150,18 @@ span {
 
 .card a {
     display: block;
-    padding: 20px
+    padding: 10px
 }
 
 .card:hover {
-    background: rgb(134, 134, 134);
+    background: #366a97;
     border-radius: 30px;
     scale: 110%;
 }
 
 .rs h3,
-.portfolios h3 {
+.portfolios h3,
+.rs-box h4 {
     font-size: 30px;
     padding-bottom: 30px;
     font-style: italic;
@@ -162,7 +174,7 @@ span {
     text-align: center;
     padding: 30px;
     margin: 20px auto;
-    background-color: var(--cor-cinza2);
+    background-color: #A60303;
     -clip-path: polygon(5% 0, 100% 0, 100% 85%, 95% 100%, 0 100%, 0 15%);
     max-width: 950px;
     border-radius: 5px;
@@ -178,7 +190,7 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(200, 30, 30);
+    background-color: #A60303;
     border-radius: 30px;
     transition: 0.2s;
 }
@@ -194,6 +206,6 @@ span {
 }
 
 .card-port:hover {
-    background-color: rgb(219, 76, 76);
+    background-color: #a83030;
     scale: 120%;
 }

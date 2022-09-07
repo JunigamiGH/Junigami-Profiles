@@ -115,7 +115,12 @@ body {
 
 /* Cards id's */
 
+#madeinabyss {
+    background-image: url(../../assets/img-analises/made-in-abyss/made-in-abyss-card.jpg);
+}
+
 #spidermanr {
     background-image: url(../../assets/img-analises/spider-man-r/spiderman-card.jpg);
 }
+
 
