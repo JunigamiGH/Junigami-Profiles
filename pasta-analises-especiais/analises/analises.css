@@ -115,6 +115,10 @@ body {
 
 /* Cards id's */
 
+#supermomboquest {
+    background-image: url(../../assets/img-analises/super-mombo-quest/super-mombo-quest-card.jpg);
+}
+
 #madeinabyss {
     background-image: url(../../assets/img-analises/made-in-abyss/made-in-abyss-card.jpg);
 }
